@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+@font-face {
+  font-family: "CapsuleArial";
+  src: url(fonts/be-themes.woff) format("woff")
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  /* height: 100vh; */
+  background-image: url(../images/Intro.jpg);
+  color: white;
+}
+
+header > div {
+  width: 50vw;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.font-light{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.second {
+  /* height: 70vh; */
+  background-image: url(../images/bg_capsule_amplify.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.second-content {
+  padding-top: 15vh;
+}
+
+.second-content > h2, 
+.third-content > h2, 
+.fourth-content >h2
+{
+  font-size: 2.7rem;
+}
+
+.second-content > h5, 
+.third-content > h5,
+.fourth-content > h5
+{
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.fourth {
+  background-image: url(../images/bg_capsule_features_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+
+footer {
+  height: 10vh;
+  font-size: .8rem;
+  background: rgb(17, 17, 17);
+  color: white;
+}
+
+footer > a:link ,footer > a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+footer > a:hover, footer > a:active {
+  text-decoration: underline;
+  color: white;  
+}
